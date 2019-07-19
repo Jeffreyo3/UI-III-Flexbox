@@ -127,12 +127,12 @@ h1 {
 .button {
 	width: 150px;
 	height: 30px;
-
+	background-color: rgba(255, 255, 255, 0);
 	text-align: center;
 	font-size: 16px;
 	border: 1px solid black;
 	margin-left: 25%;
-	padding-top: 5px;
+	padding: 5px 0;
 }
 
 .bodytxt{
@@ -170,24 +170,17 @@ header p {
 	border-bottom: 1px solid black;
 }
 
-.button2 {
-	display: inline-block;
-	border-radius: 5px;
-	border: 1px solid black;
-	margin: 15px 0 10px 10px;
-	padding: 5px 10px;
-}
-
 .services {
 	margin: 15px 0;
 }
 
-.services-box {
+.services-body div {
 	border: 1px solid black;
-	width: 45%;
+	width: 400px;
 	padding: 15px;
-	margin: 20px;
+	margin: 2% 0;
 }
+
 
 .services-body {
 	display: flex;
@@ -196,10 +189,25 @@ header p {
 	align-content: space-around;
 }
 
+.button2 {
+	background-color: rgba(255, 255, 255, 0);
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin: 15px 0 10px 10px;
+	padding: 5px 10px;
+}
+
+
 .footer {
 	margin-top: 30px;
 	padding: 10px;
 	column-count: 2;
 	flex-direction: row;
 	flex-wrap: wrap;
+}
+
+ul {
+	list-style-type: square;
+	list-style-position: inside;
 }
